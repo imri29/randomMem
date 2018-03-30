@@ -22,7 +22,7 @@ button.click(() => {
         )
         .css({
           width: "100%",
-          height: "90%"
+          height: "95%"
         });
       console.log(iframe.src);
     } else {
@@ -53,5 +53,7 @@ $(window).click(function(e) {
 });
 
 /* todo:
+* set spaces between elements like in picture
+* try to wrap up the modal
 *
 * */

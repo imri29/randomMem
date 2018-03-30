@@ -1,6 +1,10 @@
 /* ==== Variables ==== */
 $main-color: #0097f1;
-
+@mixin box-shadow {
+  -webkit-box-shadow: 7px 7px 148px -14px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 7px 148px -14px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 7px 148px -14px rgba(0, 0, 0, 0.75);
+}
 @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 
 *,
@@ -17,14 +21,14 @@ body,
 html {
   height: 100%;
   background-color: $main-color;
-  font-family: 'Open Sans Hebrew', serif;
+  font-family: "Open Sans Hebrew", serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .pic-wrapper {
@@ -41,15 +45,14 @@ body {
   align-items: center;
   justify-content: center;
   button {
-    -webkit-box-shadow: 7px 7px 148px -14px rgba(0,0,0,0.75);
-    -moz-box-shadow: 7px 7px 148px -14px rgba(0,0,0,0.75);
-    box-shadow: 7px 7px 148px -14px rgba(0,0,0,0.75);
+    @include box-shadow;
     color: #0097f1;
-    font-size: 20px;
+    font-size: 30px;
     background: #ffffff;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    width: 250px;
+    width: 280px;
+    height: 70px;
   }
 }
 
@@ -65,6 +68,7 @@ body {
   .memes {
     max-height: 450px;
     margin: 0 auto;
+    max-width: 100%;
   }
 }
 
@@ -79,6 +83,7 @@ body {
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   .modal-content {
+    @include box-shadow;
     background-color: #fefefe;
     margin: 2% auto;
     padding: 20px;
@@ -89,7 +94,7 @@ body {
     .close {
       color: #aaa;
       float: right;
-      font-size: 28px;
+      font-size: 34px;
       &:hover,
       &:focus {
         color: black;
@@ -99,4 +104,3 @@ body {
     }
   }
 }
-
