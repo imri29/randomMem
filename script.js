@@ -14,8 +14,8 @@ button.click(() => {
       const memeId = data.randomMeme.id;
       const category = data.randomMeme.category;
       memes.attr("src", memeAddress);
-      button.html("<span>מימ רנדומלי</span>");
-      $(iframe)
+      button.html("<span>מם רנדומלי</span>");
+      iframe
         .attr(
           "src",
           `http://www.memeking.co.il/memes/${category}/generator/${memeId}/normalFormat`
@@ -24,7 +24,6 @@ button.click(() => {
           width: "100%",
           height: "95%"
         });
-      console.log(iframe.src);
     } else {
       memes.attr(
         "src",

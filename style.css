@@ -45,9 +45,10 @@ body {
 
 .spinner {
   display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin: 0 auto; }
+  width: 22px;
+  height: 22px;
+  margin: 0 auto;
+  color: #0097f1; }
 
 .new-meme {
   text-align: center; }
