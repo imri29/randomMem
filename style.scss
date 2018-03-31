@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .pic-wrapper {
@@ -67,10 +67,12 @@ body {
 
 .new-meme {
   text-align: center;
+  height: 350px;
+  margin-bottom: 45px;
   .memes {
-    max-height: 450px;
-    margin: 0 auto;
+    max-height: 100%;
     max-width: 100%;
+    margin: 0 auto;
   }
 }
 
