@@ -1,18 +1,14 @@
-/* ==== Variables ==== */
-@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(//fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+/* ==== Variables, Mixins==== */
 *,
 *:before,
 *:after {
   box-sizing: border-box; }
 
-/** {
-  border: 1px solid gold;
-}*/
 body,
 html {
   height: 100%;
-  background-color: #0097f1;
-  font-family: "Open Sans Hebrew", serif; }
+  background-color: #0097f1; }
 
 body {
   display: flex;
@@ -36,12 +32,13 @@ body {
     -moz-box-shadow: 7px 7px 148px -14px rgba(0, 0, 0, 0.75);
     box-shadow: 7px 7px 148px -14px rgba(0, 0, 0, 0.75);
     color: #0097f1;
-    font-size: 30px;
     background: #ffffff;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     width: 280px;
-    height: 70px; }
+    height: 70px;
+    font-size: 28px;
+    font-family: 'Open Sans Hebrew', sans-serif; }
 
 .spinner {
   display: inline-block;
