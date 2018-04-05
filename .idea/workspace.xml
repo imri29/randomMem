@@ -75,19 +75,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/variables/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state>
+              <caret selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
+            <state relative-caret-position="258">
               <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
@@ -107,15 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/modal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -227,6 +218,12 @@
               <item name="randomMeme" type="b2602c69:ProjectViewProjectNode" />
               <item name="randomMeme" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="variables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="randomMeme" type="b2602c69:ProjectViewProjectNode" />
+              <item name="randomMeme" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
               <item name="style.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
@@ -307,7 +304,7 @@
       <workItem from="1522604430995" duration="8050000" />
       <workItem from="1522775710835" duration="1792000" />
       <workItem from="1522926736603" duration="366000" />
-      <workItem from="1522927502315" duration="787000" />
+      <workItem from="1522927502315" duration="1168000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit, font not working yet">
       <created>1522342107212</created>
@@ -334,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96097000" />
+    <option name="totallyTimeSpent" value="96478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,14 +345,14 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4980494" visible="true" weight="0.15272497" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4980494" visible="true" weight="0.15272497" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006337" side_tool="true" weight="0.32791328" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49936628" weight="0.3277635" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32647815" />
       <window_info id="Structure" order="1" sideWeight="0.50195056" side_tool="true" weight="0.31056702" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45244217" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.45244217" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -422,13 +419,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -745,17 +735,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/variables/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="258">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/main.js">
+    <entry file="file://$PROJECT_DIR$/style/variables/variables.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/variables/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
