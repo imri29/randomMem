@@ -5,12 +5,9 @@ const MOBILE_SIZE = 767;
 
 $(document).ready(function() {
   const button = $("button");
-  const spinner = $(".spinner");
   const memes = $(".memes");
   const modal = $(".modal");
   const iframe = $("iframe");
-
-  spinner.hide(memes, modal);
 
   button.click(() => {
     button.html('<div id="loading"></div>');
